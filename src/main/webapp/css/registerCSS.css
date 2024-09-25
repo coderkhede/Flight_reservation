@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2;
+}
+
+/* Centering the register form section */
+.register-form {
+
+    background-color: #fff;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 400%;
+    max-width: 400px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+/* Styling for headings */
+.register-form h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+/* Styling and centering input fields */
+.register-form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+	display:flex;
+    width: 150%;
+    padding: 0.75em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+/* Hover and focus effects for input fields */
+.register-form input[type="text"]:hover,
+.register-form input[type="email"]:hover,
+.register-form input[type="password"]:hover,
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus,
+.register-form input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling for the register button */
+.register-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for the register button */
+.register-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Styling for the anchor tag */
+.register-form a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover effect for the anchor tag */
+.register-form a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
